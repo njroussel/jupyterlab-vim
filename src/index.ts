@@ -66,7 +66,7 @@ class VimCell {
 
             extraKeys['Esc'] = CodeMirror.prototype.leaveInsertMode;
             if (!IS_MAC) {
-                extraKeys['Ctrl-C'] = false;
+                //extraKeys['Ctrl-C'] = false;
             }
 
             CodeMirror.prototype.save = () => {
